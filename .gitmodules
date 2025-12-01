@@ -1,0 +1,3 @@
+[submodule "server/ChatFlare"]
+	path = server/ChatFlare
+	url = https://github.com/RyanQ96/ChatFlare.git

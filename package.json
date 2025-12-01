@@ -1,0 +1,26 @@
+{
+  "name": "perspecto-cards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm -C play dev",
+    "build": "pnpm -C play build",
+    "emulators": "firebase emulators:start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@perspecto-cards/components": "workspace:*",
+    "@perspecto-cards/firebase": "workspace:*",
+    "@perspecto-cards/utils": "workspace:^",
+    "@perspecto-cards/router": "workspace:^",
+    "axios": "^1.4.0",
+    "engine.io-client": "^6.6.1",
+    "firebase": "^10.14.0",
+    "typescript": "^5.1.6",
+    "vue": "^3.3.4"
+  }
+}

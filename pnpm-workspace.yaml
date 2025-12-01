@@ -1,0 +1,4 @@
+packages: 
+  - play # perspecto-cards interface prototype
+  - docs # card documentation
+  - "packages/**" 

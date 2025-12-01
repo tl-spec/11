@@ -1,0 +1,49 @@
+Requirement already satisfied: langchain-core in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (0.1.53)
+Collecting langchain-core
+  Using cached langchain_core-1.1.0-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: langchain-text-splitters in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (0.0.2)
+Collecting langchain-text-splitters
+  Using cached langchain_text_splitters-1.0.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: jsonpatch<2.0.0,>=1.33.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langchain-core) (1.33)
+Collecting langsmith<1.0.0,>=0.3.45 (from langchain-core)
+  Using cached langsmith-0.4.46-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: packaging<26.0.0,>=23.2.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langchain-core) (23.2)
+Requirement already satisfied: pydantic<3.0.0,>=2.7.4 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langchain-core) (2.12.4)
+Requirement already satisfied: pyyaml<7.0.0,>=5.3.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langchain-core) (6.0.3)
+Requirement already satisfied: tenacity!=8.4.0,<10.0.0,>=8.1.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langchain-core) (8.5.0)
+Requirement already satisfied: typing-extensions<5.0.0,>=4.7.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langchain-core) (4.15.0)
+Requirement already satisfied: jsonpointer>=1.9 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from jsonpatch<2.0.0,>=1.33.0->langchain-core) (3.0.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (0.28.1)
+Requirement already satisfied: orjson>=3.9.14 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (3.11.4)
+Requirement already satisfied: requests-toolbelt>=1.0.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (1.0.0)
+Requirement already satisfied: requests>=2.0.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (2.32.5)
+Requirement already satisfied: zstandard>=0.23.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from langsmith<1.0.0,>=0.3.45->langchain-core) (0.25.0)
+Requirement already satisfied: anyio in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (4.11.0)
+Requirement already satisfied: certifi in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (2025.11.12)
+Requirement already satisfied: httpcore==1.* in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (1.0.9)
+Requirement already satisfied: idna in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (3.11)
+Requirement already satisfied: h11>=0.16 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (0.16.0)
+Requirement already satisfied: annotated-types>=0.6.0 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from pydantic<3.0.0,>=2.7.4->langchain-core) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.5 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from pydantic<3.0.0,>=2.7.4->langchain-core) (2.41.5)
+Requirement already satisfied: typing-inspection>=0.4.2 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from pydantic<3.0.0,>=2.7.4->langchain-core) (0.4.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core) (3.4.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from requests>=2.0.0->langsmith<1.0.0,>=0.3.45->langchain-core) (2.5.0)
+Requirement already satisfied: sniffio>=1.1 in /mnt/d/InsightAgent-main/InsightAgent-main/insightagent-venv/lib/python3.13/site-packages (from anyio->httpx<1,>=0.23.0->langsmith<1.0.0,>=0.3.45->langchain-core) (1.3.1)
+Using cached langchain_core-1.1.0-py3-none-any.whl (473 kB)
+Using cached langsmith-0.4.46-py3-none-any.whl (411 kB)
+Using cached langchain_text_splitters-1.0.0-py3-none-any.whl (33 kB)
+Installing collected packages: langsmith, langchain-core, langchain-text-splitters
+  Attempting uninstall: langsmith
+    Found existing installation: langsmith 0.1.147
+    Uninstalling langsmith-0.1.147:
+      Successfully uninstalled langsmith-0.1.147
+  Attempting uninstall: langchain-core
+    Found existing installation: langchain-core 0.1.53
+    Uninstalling langchain-core-0.1.53:
+      Successfully uninstalled langchain-core-0.1.53
+  Attempting uninstall: langchain-text-splitters
+    Found existing installation: langchain-text-splitters 0.0.2
+    Uninstalling langchain-text-splitters-0.0.2:
+      Successfully uninstalled langchain-text-splitters-0.0.2
+
+Successfully installed langchain-core-1.1.0 langchain-text-splitters-1.0.0 langsmith-0.4.46

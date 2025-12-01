@@ -1,0 +1,19 @@
+FROM python:3.11.4 
+
+WORKDIR /app 
+
+COPY requirements.txt /app
+RUN pip install -r requirements.txt 
+
+COPY app.py /app
+COPY .env.config /app
+COPY .env.connection.docker /app
+COPY agent_card_server /app/agent_card_server
+COPY ChatFlare /app/ChatFlare
+
+RUN pip install --upgrade pip
+RUN pip install -r /app/ChatFlare/requirements.txt
+RUN pip install -e /app/ChatFlare
+
+EXPOSE 8080
+CMD ["python", "-u", "app.py"]

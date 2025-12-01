@@ -1,0 +1,14 @@
+Collecting faiss-cpu
+  Downloading faiss_cpu-1.13.0-cp39-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (7.7 kB)
+Collecting numpy<3.0,>=1.25.0 (from faiss-cpu)
+  Downloading numpy-2.3.5-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting packaging (from faiss-cpu)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading faiss_cpu-1.13.0-cp39-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (23.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.6/23.6 MB 7.1 MB/s  0:00:03
+Downloading numpy-2.3.5-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 9.6 MB/s  0:00:01
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Installing collected packages: packaging, numpy, faiss-cpu
+
+Successfully installed faiss-cpu-1.13.0 numpy-2.3.5 packaging-25.0

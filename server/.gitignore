@@ -1,0 +1,9 @@
+.env 
+bedrock.env
+agent_card_server/data/computations/*
+agent_card_server/data/raw/*
+agent_card_server/data/projects/*
+agent_card_server/cache_management/
+insight-agent-venv
+agent_card_server/lib
+agent_card_server/test/*
